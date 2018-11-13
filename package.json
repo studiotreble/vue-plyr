@@ -13,7 +13,8 @@
     "cli-build": "vue-cli-service build --target lib src/index.js",
     "lint": "vue-cli-service lint",
     "test": "vue-cli-service test:unit",
-    "build": "bili"
+		"build": "bili",
+		"postinstall": "cd node_modules/vue-plyr/ && npm install && npm run build"
   },
   "author": {
     "name": "Gabe Dunn",
