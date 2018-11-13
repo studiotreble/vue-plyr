@@ -14,7 +14,7 @@
     "lint": "vue-cli-service lint",
     "test": "vue-cli-service test:unit",
 		"build": "bili",
-		"postinstall": "cd node_modules/vue-plyr/ && npm install && npm run build"
+    "prepare": "npm run build"
   },
   "author": {
     "name": "Gabe Dunn",
